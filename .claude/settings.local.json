@@ -7,7 +7,17 @@
       "Bash(git commit:*)",
       "Bash(git push)",
       "Bash(ls -la \"C:\\\\Projektai\\\\service-experience-index\\\\lib\"\" 2>/dev/null || echo \"lib directory not found \")",
-      "Bash(cat /c/Projektai/service-experience-index/app/profile/[slug]/page.tsx)"
+      "Bash(cat /c/Projektai/service-experience-index/app/profile/[slug]/page.tsx)",
+      "Bash(pandoc \"C:\\\\Users\\\\luken\\\\Downloads\\\\SEI AI Visibility Developer Report.docx\" -o - --to plain)",
+      "Read(//c/Users/luken/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/d2bf9798-7e15-4d9f-992a-360816ce9918/959e5470-37b6-4edc-a75c-87b68d6c4160/skills/docx/**)",
+      "Bash(python scripts/office/unpack.py \"C:\\\\Users\\\\luken\\\\Downloads\\\\SEI AI Visibility Developer Report.docx\" /tmp/sei_report_unpacked/)",
+      "Bash(pip install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python -c ' *)",
+      "Read(//c/tmp/sei_report_unpacked/**)",
+      "Read(//c//**)",
+      "Bash(xargs ls *)",
+      "Bash(npx tsc *)"
     ]
   }
 }
